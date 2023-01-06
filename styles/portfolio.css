@@ -151,6 +151,7 @@ th{
     font-size: 30px;
     
 }
+
 .resume-item{
     padding-bottom: 30px;
     margin-top: 30px;
@@ -174,6 +175,35 @@ th{
 .resume-button{
     margin-top: 40px;
     text-align: center;
+}
+/* contact styles */
+.contact-title{
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
+    color: #181818;
+    padding-bottom: 30px;
+    
+}
+.contact-description{
+    padding-bottom: 20px;
+}
+.contact{
+    display: flex;
+    gap: 200px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+
+}
+input[type="text"], input[type="email"],textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px ;
+}
+a{
+    text-decoration: none;
+    padding-right: 5px;
 }
 
 
